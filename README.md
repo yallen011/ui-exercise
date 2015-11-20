@@ -11,12 +11,12 @@ The functionality of components on the page should be as complete as possible wi
 https://salesloft-style.herokuapp.com/
 
 ## Files Contained
-Wireframe Mockup
-Actual Product
-SVG SalesLoft logo
+- Wireframe Mockup
+- Actual Product
+- SVG SalesLoft logo
 
 ## Result should include
-HTML5 output file
-SCSS source file
-Resulting CSS file
-Any javascript files used
+- HTML5 output file
+- SCSS source file
+- Resulting CSS file
+- Any javascript files used
