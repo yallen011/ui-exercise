@@ -1,29 +1,28 @@
 # SalesLoft UI Exercise
 
 ## Instructions
-Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the wireframe provided.  This is a real-world page in SalesLoft’s product.  Feel free to explore responsive concepts for the table and menu as well as sorting, pagination etc.
 
-The rough wireframe is purposefully open ended - it is up to you.  We’d like to go for clean and modern styling that is consistent with the rest of our application.  You can also refer to the Style Guide for design hints as to our colors, general styles, etc.  
+Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice). This application should meet the following basic requirements:
 
-The functionality of components on the page should be as complete as possible without interacting with a backend data service.  
+  * Uses color scheme similar to that of Gmail
+  * Displays a list of emails with name, title, date and tags
+  * Allows for selection of one or more emails by the end user
+  * Allows users to perform a number of actions on one more more selected emails
+  * Shows a sidebar that shows a number of folders and tags
+  * Options to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
+  * Table cells should be viewable at all resolutions above 320px
+
+Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. Try to time box this exercise to take no longer than 4 hours. We will work to expand or change this exercise during your on-site interview.
 
 ## Submission
 
 Please submit the exercise as a pull request.
 
-## Style Guide URL
-To view the style guide, create an account at https://accounts.salesloft.com/sign_up (using a non-gmail address).
-
-Once you have an account, head to https://sdr.salesloft.com/app/styleguide
-
-## Files Contained
-- Wireframe
-- SVG SalesLoft logo
-
 ## Result should include
-- HTML5 output file
-- SCSS source file
-- Resulting CSS file
-- Any javascript files used
+
+  * HTML5 output file
+  * Sass/Less source files
+  * Resulting CSS file
+  * Any javascript used
 
 In short, it should be a fully functioning app we can view.
