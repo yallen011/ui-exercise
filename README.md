@@ -1,8 +1,10 @@
 # SalesLoft UI Exercise
 
 ## Instructions
-Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice). This application should meet the following basic requirements:
 
+Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice). This application should meet the following basic requirements:
+
+  * Uses color scheme similar to that of Gmail
   * Displays a list of emails with name, title, date and tags
   * Allows for selection of one or more emails by the end user
   * Allows users to perform a number of actions on one more more selected emails
@@ -17,9 +19,10 @@ Spend time on both the UI/UX and the actual functionality of the list view. This
 Please submit the exercise as a pull request.
 
 ## Result should include
-- HTML5 output file
-- SCSS source file
-- Resulting CSS file
-- Any javascript files used
+
+  * HTML5 output file
+  * Sass/Less source files
+  * Resulting CSS file
+  * Any javascript used
 
 In short, it should be a fully functioning app we can view.
