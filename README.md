@@ -2,7 +2,9 @@
 
 ## Instructions
 
-Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice). This application should meet the following basic requirements:
+Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice), while also showing a grasp of best UI/UX practices.
+
+This application should meet the following basic requirements:
 
   * Uses color scheme similar to that of Gmail
   * Displays a list of emails with name, title, date and tags
