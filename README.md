@@ -18,7 +18,7 @@ Spend time on both the UI/UX and the actual functionality of the list view. This
 
 ## Submission
 
-Please submit the exercise as a pull request.
+Please clone this repo and submit via email to daniel.andrews@salesloft.com
 
 ## Result should include
 
