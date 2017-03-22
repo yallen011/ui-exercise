@@ -7,10 +7,10 @@ Create a fluid & responsive page layout using HTML, SCSS, and JS that is based o
 This application should meet the following basic requirements:
 
   * Uses color scheme similar to that of Gmail
-  * Displays a list of emails with name, title, date and tags
+  * Displays a list of emails with name, title, date and tags based on provided emails.json file.
   * Allows for selection of one or more emails by the end user
   * Allows users to perform a number of actions on one more more selected emails
-  * Shows a sidebar that shows a number of folders and tags
+  * Shows a sidebar that shows a number of tags
   * Options to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
   * Table cells should be viewable at all resolutions above 320px
 
@@ -26,5 +26,6 @@ Please clone this repo and submit via email to daniel.andrews@salesloft.com
   * Sass/Less source files
   * Resulting CSS file
   * Any javascript used
+  * A README file with instructions on how to run the project locally.
 
 In short, it should be a fully functioning app we can view.
