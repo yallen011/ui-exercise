@@ -14,7 +14,7 @@ This application should meet the following basic requirements:
   * Options to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
   * Table cells should be viewable at all resolutions above 320px
 
-Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. Try to time box this exercise to take no longer than 4 hours. We will work to expand or change this exercise during your on-site interview.
+Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. Please don't use this an an opportunity to learn a new framework - instead, use tools and technologies you are comfortable with so we can have in-depth discussion about your decisions and approach. Try to time box this exercise to take no longer than 4 hours. We will work to expand or change this exercise during your on-site interview.
 
 ## Submission
 
