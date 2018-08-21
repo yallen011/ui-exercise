@@ -2,31 +2,29 @@
 
 ## Instructions
 
-Create a fluid & responsive page layout using HTML, SCSS, and JS that is based on the Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of CSS3, HTML, Sass/Less, and Javascript (vanilla or framework of your choice), while also showing a grasp of best UI/UX practices.
+Create a responsive single page app that is based on Gmail's web interface. Make any improvements to the UX that you see fit. This is intended to show your knowledge of Javascript (vanilla JS or any framework of your choice) & CSS/Sass/Less,  while also showing your grasp of UI/UX best practices.
 
-This application should meet the following basic requirements:
+Use the following guidelines when building the application:
 
   * Uses color scheme similar to that of Gmail
-  * Displays a list of emails with name, title, date and tags based on provided emails.json file.
+  * Displays a list of emails with name, title, date and tags based on provided emails.json file
   * Allows for selection of one or more emails by the end user
-  * Allows users to perform a number of actions on one more more selected emails
-  * Shows a sidebar that shows a number of tags
-  * Options to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
+  * Allows users to perform a number of actions on one or more selected emails
+  * Shows a sidebar that displays a number of tags
   * Table cells should be viewable at all resolutions above 320px
-  * Includes at least one javascript test
+  * Include at least one javascript test
+  * (Optional) Alternate ways to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
 
-Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. Please don't use this an an opportunity to learn a new framework - instead, use tools and technologies you are comfortable with so we can have in-depth discussion about your decisions and approach. Try to time box this exercise to take no longer than 4 hours. We will work to expand or change this exercise during your on-site interview.
+Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. 
+
+Try to time box this exercise to take no longer than 4 hours. If you don't feel like you're able to finish within that timeframe, focus on making parts of the exercise great rather than submitting a project that's 80% complete across the board. This gives engineers an opportunity to explore what it's like to work with you while we're fleshing out the remaining work or expanding on it.
+
+Also, please don't use this an an opportunity to learn a new framework - instead, use tools and technologies you are comfortable with so we can have an in-depth discussion about your decisions and approach. 
 
 ## Submission
 
-Please clone this repo and submit via email to daniel.andrews@salesloft.com
+Please clone this repo and submit to daniel.andrews@salesloft.com. The submission should include:
 
-## Result should include
-
-  * HTML output file
-  * Sass/Less source files
-  * Resulting CSS file
-  * Any javascript used
-  * A README file with instructions on how to run the project locally.
-
-In short, it should be a fully functioning app we can view.
+  * All source files in a zip file
+  * A link to a running version of the application
+  * A README file with instructions on how to run the project locally
