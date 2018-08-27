@@ -13,7 +13,6 @@ Use the following guidelines when building the application:
   * Shows a sidebar that displays a number of tags
   * Table cells should be viewable at all resolutions above 320px
   * Include at least one javascript test
-  * (Optional) Alternate ways to display the tabular data in different ways (this is intentionally vague, would like to see you explore different ways to represent the data)
 
 Spend time on both the UI/UX and the actual functionality of the list view. This view should be as complete as possible without interacting with a backend data service, so look at stubbing out fake data. 
 
