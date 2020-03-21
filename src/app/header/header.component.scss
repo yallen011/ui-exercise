@@ -1,40 +1,59 @@
+div.row {
+    padding: 8px 0px;
+}
 .logo {
     // background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_dark_2x.png);
-    width:109px;
-    height:40px;
+    // width:109px;
+    // height:40px;
 }
 
 .hamburger {
-    color: rgba($color: #000000, $alpha: 1.0);
-    height: 24px;
-    width: 24px;
     margin: 0 4px;
     padding: 12px;
     overflow: hidden;
     border-radius: 50%;
-    // vertical-align: middle;
+    box-sizing: content-box;
     cursor: pointer;
 }
 
 .search {
-    width: 400px;
-    height: 24px;
+    width: 82%;
+    height: 40px;
     margin: 0 4px;
     border: none;
-    background: #f2f5f5cc;
     font-size: large;
 }
 
 .search-container {
     border-radius: 10px;
-    vertical-align: top;
-    background: #f2f5f5cc;
-    display: inline-block;
-    padding: 18px;
-    margin: 0 129px;
+    height: 46px;
+}
+
+.search, .search-container {
+    background: #e9ebeb;
 }
 
 .search-icon {
-    // color: #5f6368;
-    // opacity: 1;
+    margin: 0px 15px 0px;
 }
+
+div.search-container > input + svg {
+    margin-bottom: 5px;
+}
+
+.hamburger,
+.search-icon,
+div.search-container > input + svg,
+div.search-container + div.col svg  {
+    height: 24px;
+    width: 24px;
+}
+
+div.search-container + div.col > svg {
+    margin-right: 16px ;
+}
+
+div.search-container + div.col {
+    padding-top: 8px;
+}
+
