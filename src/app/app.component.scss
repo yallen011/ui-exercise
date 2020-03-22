@@ -1,8 +1,15 @@
+:host{
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
 header {
     border-bottom: 1px solid #e1e1e1;
 }
 
 section {
-    padding: 8px;
+    padding: 8px 15px 0;
     color: #202124;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }

@@ -9,6 +9,7 @@ import { MessageListComponent } from './message-list/message-list.component';
 import { NavComponent } from './nav/nav.component';
 import { MessageActionBarComponent } from './message-action-bar/message-action-bar.component';
 import { MessageCatagoryComponent } from './message-catagory/message-catagory.component';
+import { TagsComponent } from './tags/tags.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MessageCatagoryComponent } from './message-catagory/message-catagory.co
     MessageListComponent,
     NavComponent,
     MessageActionBarComponent,
-    MessageCatagoryComponent
+    MessageCatagoryComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,

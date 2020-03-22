@@ -1,0 +1,28 @@
+:host{
+    
+    width: -webkit-fill-available;
+}
+.tag-icons {
+    margin-right: 18px;
+}
+
+
+span {
+    vertical-align: middle;
+}
+
+a.nav-link {
+    text-align: left;
+    border-radius: 1.25em;
+}
+
+a.nav-link.active {
+    background-color: #d6d8d9;
+}
+
+a:hover {
+    background-color: #f1f3f4;
+}
+svg {
+    fill: rgba(118, 118, 118, 1);
+}
