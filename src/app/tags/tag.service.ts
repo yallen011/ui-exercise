@@ -15,27 +15,27 @@ export class TagService {
     {
       name: 'Starred',
       iconURL:
-        'https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png'
+        'https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png'
     },
     {
       name: 'Snoozed',
       iconURL:
-        'https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png'
+        'https://www.gstatic.com/images/icons/material/system/1x/watch_later_black_20dp.png'
     },
     {
       name: 'Important',
       iconURL:
-        'https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png'
+        'https://www.gstatic.com/images/icons/material/system/1x/label_important_black_20dp.png'
     },
     {
       name: 'Sent',
       iconURL:
-        'https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png'
+        'https://www.gstatic.com/images/icons/material/system/1x/send_black_20dp.png'
     },
     {
       name: 'Drafts',
       iconURL:
-        'https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png'
+        'https://www.gstatic.com/images/icons/material/system/1x/insert_drive_file_black_20dp.png'
     },
     {
       name: 'Google+',
