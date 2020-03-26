@@ -1,10 +1,21 @@
 <a class="text-reset" [routerLink]="['/details', message.id]" href="#">
     <div class="row">
-        <div class="col" [ngClass]="{unread: !message.read}">{{message.sender}}</div>
-        <div class="col text-truncate"><span
+        <div class="col" [ngClass]="{unread: !message.read}">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/check_box_outline_blank_black_20dp.png"
+                class="actions" height="20" width="20" alt="Checkbox">
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/star_googyellow500_20dp.png"
+                class="actions" height="20" width="20" alt="Star">
+
+            <img src="https://www.gstatic.com/images/icons/material/system/2x/label_important_outline_black_20dp.png"
+                class="actions" height="20" width="20" alt="Label">
+
+            <span class="sender">{{message.sender}}</span>
+        </div>
+        <div class="col-8 text-truncate"><span
                 [ngClass]="{unread: !message.read}">{{message.subject}}</span><span>{{message.body}}</span>
         </div>
-        <div class="col" [ngClass]="{unread: !message.read}"><span class="date">{{message.date | date:'MMM dd'}}</span>
+        <div class="col-1" [ngClass]="{unread: !message.read}"><span
+                class="date">{{message.date | date:'MMM dd'}}</span>
         </div>
 
     </div>

@@ -1,6 +1,5 @@
 div {
     border-bottom: 1px solid #f2f5f5cc;
-    background-color: red;
 }
 
 .unread {
@@ -13,4 +12,13 @@ div {
 
 a {
     text-decoration: none;
+}
+
+.actions {
+    filter: opacity(0.5);
+    margin-right: 15px;
+}
+
+.sender{
+    padding-left: 15px;
 }

@@ -1,4 +1,5 @@
-<a class="nav-link nav-item text-reset" href="#" *ngFor="let tag of tags | async">
+<a class="nav-link nav-item text-reset" routerLink="/messages" [fragment]="tag.name" href="#"
+    *ngFor="let tag of tags | async">
     <ng-container *ngTemplateOutlet="tag.iconURL? image : svg; context: {$implicit: tag}"></ng-container>
     <span>{{tag.name}}</span>
 </a>

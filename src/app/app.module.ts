@@ -11,6 +11,7 @@ import { MessageActionBarComponent } from './message-action-bar/message-action-b
 import { MessageCatagoryComponent } from './message-catagory/message-catagory.component';
 import { TagsComponent } from './tags/tags.component';
 import { MessageDetailComponent } from './message-detail/message-detail.component';
+import { FilterMessagesPipe } from './filter-messages.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MessageDetailComponent } from './message-detail/message-detail.componen
     MessageActionBarComponent,
     MessageCatagoryComponent,
     TagsComponent,
-    MessageDetailComponent
+    MessageDetailComponent,
+    FilterMessagesPipe
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
