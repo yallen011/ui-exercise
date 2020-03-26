@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { MessageActionBarComponent } from './message-action-bar/message-action-bar.component';
 import { MessageCatagoryComponent } from './message-catagory/message-catagory.component';
 import { TagsComponent } from './tags/tags.component';
+import { MessageDetailComponent } from './message-detail/message-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,11 @@ import { TagsComponent } from './tags/tags.component';
     NavComponent,
     MessageActionBarComponent,
     MessageCatagoryComponent,
-    TagsComponent
+    TagsComponent,
+    MessageDetailComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

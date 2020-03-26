@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import emails from '../../assets/emails.json';
+import { Email } from './email';
+import { EmailService } from './email.service';
 
 @Component({
   selector: 'app-message-list',
@@ -6,10 +9,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./message-list.component.scss']
 })
 export class MessageListComponent implements OnInit {
+  messages = this.emailService.getMessages();
 
-  constructor() { }
+  constructor(private emailService: EmailService) {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

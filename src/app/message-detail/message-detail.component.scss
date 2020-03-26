@@ -1,0 +1,47 @@
+h2 {
+    display: inline-block;
+    padding-right: 5px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Google Sans',Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-variant-ligatures: no-contextual;
+    color: #202124;
+    font-weight: 400;
+}
+
+img {
+    margin: 0 8px 0 0;
+}
+
+.sender {
+    color: #555;
+    margin-top: 10px;
+}
+
+.tag-start {
+    border-radius: 4px 0 0 4px;
+    padding-left: 4px;
+    padding-right: 6px;
+    line-height: 18px;
+}
+
+p > span {
+    color: #202124;
+}
+
+.tag-end {
+    border-radius: 0 4px 4px 0;
+    padding-left: 2px;
+    padding-right: 4px;
+    margin-right: 6px;
+}
+
+.tag-start, .tag-end {
+    background-color: rgb(221, 221, 221);
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+}
+
+.tag{ 
+    display: inline-block;
+}

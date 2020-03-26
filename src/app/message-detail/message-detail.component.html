@@ -1,0 +1,13 @@
+<div>
+    <h2>{{message.subject}}</h2>
+    <img src="https://www.gstatic.com/images/icons/material/system/1x/label_important_googyellow500_20dp.png"
+        alt="Label Image">
+    <div class="tag" *ngFor="let tag of message.tags"><span class="tag-start">{{tag}}</span><span
+            class="tag-end">x</span></div>
+</div>
+
+<p class="sender">
+    <span><b>{{message.senderName | titlecase}}</b></span>
+    <{{message.sender}}>
+</p>
+<div [innerHTML]="message.body">

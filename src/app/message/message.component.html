@@ -1,1 +1,11 @@
-<p>message works!</p>
+<a class="text-reset" [routerLink]="['/details', message.id]" href="#">
+    <div class="row">
+        <div class="col" [ngClass]="{unread: !message.read}">{{message.sender}}</div>
+        <div class="col text-truncate"><span
+                [ngClass]="{unread: !message.read}">{{message.subject}}</span><span>{{message.body}}</span>
+        </div>
+        <div class="col" [ngClass]="{unread: !message.read}"><span class="date">{{message.date | date:'MMM dd'}}</span>
+        </div>
+
+    </div>
+</a>
